@@ -6,6 +6,8 @@ import { RegisterPage } from './features/auth/RegisterPage';
 import { UserProfilePage } from './features/users/UserProfilePage';
 import { RepoViewPage } from './features/repositories/RepoViewPage';
 import { RepoSettingsPage } from './features/settings/RepoSettingsPage';
+import { RepoInsightsPage } from './features/insights/RepoInsightsPage';
+import { OrgDetailPage } from './features/organizations/OrgDetailPage';
 import { NewRepoPage } from './features/repositories/NewRepoPage';
 import { SearchExplorePage } from './features/search/SearchExplorePage';
 import { IssueListPage } from './features/issues/IssueListPage';
@@ -82,9 +84,11 @@ export default function App() {
           <Route path="/register" element={<RegisterPage />} />
           <Route path="/new" element={<NewRepoPage />} />
           <Route path="/admin" element={<AdminDashboardPage />} />
+          <Route path="/orgs/:slug" element={<OrgDetailPage />} />
           <Route path="/users/:username" element={<UserProfilePage />} />
           <Route path="/:owner/:repo" element={<RepoViewPage />} />
           <Route path="/:owner/:repo/settings" element={<RepoSettingsPage />} />
+          <Route path="/:owner/:repo/insights" element={<RepoInsightsPage />} />
           <Route path="/:owner/:repo/issues" element={<IssueListPage />} />
           <Route path="/:owner/:repo/issues/:number" element={<IssueDetailPage />} />
           <Route path="/:owner/:repo/pulls" element={<PRListPage />} />

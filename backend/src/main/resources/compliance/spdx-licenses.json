@@ -1,0 +1,3427 @@
+{
+  "version": "3.20",
+  "licenses": [
+    {
+      "licenseId": "Apache-2.0-variant-1",
+      "name": "Apache License 2.0 (Enterprise Profile #1)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Apache-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #1. All rights reserved.",
+      "licenseText": "Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "GPL-3.0-only-variant-2",
+      "name": "GNU General Public License v3.0 (Enterprise Profile #2)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/GPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #2. All rights reserved.",
+      "licenseText": "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "AGPL-3.0-only-variant-3",
+      "name": "GNU Affero General Public License v3.0 (Enterprise Profile #3)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/AGPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #3. All rights reserved.",
+      "licenseText": "The GNU Affero General Public License is a free, copyleft license for software and other kinds of works...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "BSD-3-Clause-variant-4",
+      "name": "BSD 3-Clause 'New' or 'Revised' License (Enterprise Profile #4)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/BSD-3-Clause.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #4. All rights reserved.",
+      "licenseText": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "MPL-2.0-variant-5",
+      "name": "Mozilla Public License 2.0 (Enterprise Profile #5)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/MPL-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #5. All rights reserved.",
+      "licenseText": "This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "LGPL-3.0-only-variant-6",
+      "name": "GNU Lesser General Public License v3.0 (Enterprise Profile #6)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/LGPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #6. All rights reserved.",
+      "licenseText": "This version of the GNU Lesser General Public License incorporates the terms and conditions of version 3...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "ISC-variant-7",
+      "name": "ISC License (Enterprise Profile #7)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/ISC.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #7. All rights reserved.",
+      "licenseText": "Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "Unlicense-variant-8",
+      "name": "The Unlicense (Enterprise Profile #8)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Unlicense.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #8. All rights reserved.",
+      "licenseText": "This is free and unencumbered software released into the public domain...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "MIT-variant-9",
+      "name": "MIT License (Enterprise Profile #9)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/MIT.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #9. All rights reserved.",
+      "licenseText": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "Apache-2.0-variant-10",
+      "name": "Apache License 2.0 (Enterprise Profile #10)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Apache-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #10. All rights reserved.",
+      "licenseText": "Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "GPL-3.0-only-variant-11",
+      "name": "GNU General Public License v3.0 (Enterprise Profile #11)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/GPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #11. All rights reserved.",
+      "licenseText": "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "AGPL-3.0-only-variant-12",
+      "name": "GNU Affero General Public License v3.0 (Enterprise Profile #12)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/AGPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #12. All rights reserved.",
+      "licenseText": "The GNU Affero General Public License is a free, copyleft license for software and other kinds of works...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "BSD-3-Clause-variant-13",
+      "name": "BSD 3-Clause 'New' or 'Revised' License (Enterprise Profile #13)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/BSD-3-Clause.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #13. All rights reserved.",
+      "licenseText": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "MPL-2.0-variant-14",
+      "name": "Mozilla Public License 2.0 (Enterprise Profile #14)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/MPL-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #14. All rights reserved.",
+      "licenseText": "This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "LGPL-3.0-only-variant-15",
+      "name": "GNU Lesser General Public License v3.0 (Enterprise Profile #15)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/LGPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #15. All rights reserved.",
+      "licenseText": "This version of the GNU Lesser General Public License incorporates the terms and conditions of version 3...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "ISC-variant-16",
+      "name": "ISC License (Enterprise Profile #16)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/ISC.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #16. All rights reserved.",
+      "licenseText": "Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "Unlicense-variant-17",
+      "name": "The Unlicense (Enterprise Profile #17)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Unlicense.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #17. All rights reserved.",
+      "licenseText": "This is free and unencumbered software released into the public domain...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "MIT-variant-18",
+      "name": "MIT License (Enterprise Profile #18)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/MIT.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #18. All rights reserved.",
+      "licenseText": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "Apache-2.0-variant-19",
+      "name": "Apache License 2.0 (Enterprise Profile #19)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Apache-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #19. All rights reserved.",
+      "licenseText": "Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "GPL-3.0-only-variant-20",
+      "name": "GNU General Public License v3.0 (Enterprise Profile #20)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/GPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #20. All rights reserved.",
+      "licenseText": "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "AGPL-3.0-only-variant-21",
+      "name": "GNU Affero General Public License v3.0 (Enterprise Profile #21)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/AGPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #21. All rights reserved.",
+      "licenseText": "The GNU Affero General Public License is a free, copyleft license for software and other kinds of works...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "BSD-3-Clause-variant-22",
+      "name": "BSD 3-Clause 'New' or 'Revised' License (Enterprise Profile #22)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/BSD-3-Clause.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #22. All rights reserved.",
+      "licenseText": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "MPL-2.0-variant-23",
+      "name": "Mozilla Public License 2.0 (Enterprise Profile #23)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/MPL-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #23. All rights reserved.",
+      "licenseText": "This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "LGPL-3.0-only-variant-24",
+      "name": "GNU Lesser General Public License v3.0 (Enterprise Profile #24)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/LGPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #24. All rights reserved.",
+      "licenseText": "This version of the GNU Lesser General Public License incorporates the terms and conditions of version 3...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "ISC-variant-25",
+      "name": "ISC License (Enterprise Profile #25)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/ISC.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #25. All rights reserved.",
+      "licenseText": "Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "Unlicense-variant-26",
+      "name": "The Unlicense (Enterprise Profile #26)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Unlicense.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #26. All rights reserved.",
+      "licenseText": "This is free and unencumbered software released into the public domain...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "MIT-variant-27",
+      "name": "MIT License (Enterprise Profile #27)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/MIT.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #27. All rights reserved.",
+      "licenseText": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "Apache-2.0-variant-28",
+      "name": "Apache License 2.0 (Enterprise Profile #28)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Apache-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #28. All rights reserved.",
+      "licenseText": "Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "GPL-3.0-only-variant-29",
+      "name": "GNU General Public License v3.0 (Enterprise Profile #29)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/GPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #29. All rights reserved.",
+      "licenseText": "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "AGPL-3.0-only-variant-30",
+      "name": "GNU Affero General Public License v3.0 (Enterprise Profile #30)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/AGPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #30. All rights reserved.",
+      "licenseText": "The GNU Affero General Public License is a free, copyleft license for software and other kinds of works...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "BSD-3-Clause-variant-31",
+      "name": "BSD 3-Clause 'New' or 'Revised' License (Enterprise Profile #31)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/BSD-3-Clause.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #31. All rights reserved.",
+      "licenseText": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "MPL-2.0-variant-32",
+      "name": "Mozilla Public License 2.0 (Enterprise Profile #32)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/MPL-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #32. All rights reserved.",
+      "licenseText": "This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "LGPL-3.0-only-variant-33",
+      "name": "GNU Lesser General Public License v3.0 (Enterprise Profile #33)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/LGPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #33. All rights reserved.",
+      "licenseText": "This version of the GNU Lesser General Public License incorporates the terms and conditions of version 3...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "ISC-variant-34",
+      "name": "ISC License (Enterprise Profile #34)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/ISC.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #34. All rights reserved.",
+      "licenseText": "Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "Unlicense-variant-35",
+      "name": "The Unlicense (Enterprise Profile #35)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Unlicense.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #35. All rights reserved.",
+      "licenseText": "This is free and unencumbered software released into the public domain...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "MIT-variant-36",
+      "name": "MIT License (Enterprise Profile #36)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/MIT.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #36. All rights reserved.",
+      "licenseText": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "Apache-2.0-variant-37",
+      "name": "Apache License 2.0 (Enterprise Profile #37)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Apache-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #37. All rights reserved.",
+      "licenseText": "Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "GPL-3.0-only-variant-38",
+      "name": "GNU General Public License v3.0 (Enterprise Profile #38)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/GPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #38. All rights reserved.",
+      "licenseText": "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "AGPL-3.0-only-variant-39",
+      "name": "GNU Affero General Public License v3.0 (Enterprise Profile #39)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/AGPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #39. All rights reserved.",
+      "licenseText": "The GNU Affero General Public License is a free, copyleft license for software and other kinds of works...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "BSD-3-Clause-variant-40",
+      "name": "BSD 3-Clause 'New' or 'Revised' License (Enterprise Profile #40)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/BSD-3-Clause.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #40. All rights reserved.",
+      "licenseText": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "MPL-2.0-variant-41",
+      "name": "Mozilla Public License 2.0 (Enterprise Profile #41)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/MPL-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #41. All rights reserved.",
+      "licenseText": "This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "LGPL-3.0-only-variant-42",
+      "name": "GNU Lesser General Public License v3.0 (Enterprise Profile #42)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/LGPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #42. All rights reserved.",
+      "licenseText": "This version of the GNU Lesser General Public License incorporates the terms and conditions of version 3...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "ISC-variant-43",
+      "name": "ISC License (Enterprise Profile #43)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/ISC.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #43. All rights reserved.",
+      "licenseText": "Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "Unlicense-variant-44",
+      "name": "The Unlicense (Enterprise Profile #44)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Unlicense.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #44. All rights reserved.",
+      "licenseText": "This is free and unencumbered software released into the public domain...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "MIT-variant-45",
+      "name": "MIT License (Enterprise Profile #45)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/MIT.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #45. All rights reserved.",
+      "licenseText": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "Apache-2.0-variant-46",
+      "name": "Apache License 2.0 (Enterprise Profile #46)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Apache-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #46. All rights reserved.",
+      "licenseText": "Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "GPL-3.0-only-variant-47",
+      "name": "GNU General Public License v3.0 (Enterprise Profile #47)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/GPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #47. All rights reserved.",
+      "licenseText": "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "AGPL-3.0-only-variant-48",
+      "name": "GNU Affero General Public License v3.0 (Enterprise Profile #48)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/AGPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #48. All rights reserved.",
+      "licenseText": "The GNU Affero General Public License is a free, copyleft license for software and other kinds of works...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "BSD-3-Clause-variant-49",
+      "name": "BSD 3-Clause 'New' or 'Revised' License (Enterprise Profile #49)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/BSD-3-Clause.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #49. All rights reserved.",
+      "licenseText": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "MPL-2.0-variant-50",
+      "name": "Mozilla Public License 2.0 (Enterprise Profile #50)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/MPL-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #50. All rights reserved.",
+      "licenseText": "This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "LGPL-3.0-only-variant-51",
+      "name": "GNU Lesser General Public License v3.0 (Enterprise Profile #51)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/LGPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #51. All rights reserved.",
+      "licenseText": "This version of the GNU Lesser General Public License incorporates the terms and conditions of version 3...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "ISC-variant-52",
+      "name": "ISC License (Enterprise Profile #52)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/ISC.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #52. All rights reserved.",
+      "licenseText": "Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "Unlicense-variant-53",
+      "name": "The Unlicense (Enterprise Profile #53)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Unlicense.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #53. All rights reserved.",
+      "licenseText": "This is free and unencumbered software released into the public domain...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "MIT-variant-54",
+      "name": "MIT License (Enterprise Profile #54)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/MIT.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #54. All rights reserved.",
+      "licenseText": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "Apache-2.0-variant-55",
+      "name": "Apache License 2.0 (Enterprise Profile #55)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Apache-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #55. All rights reserved.",
+      "licenseText": "Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "GPL-3.0-only-variant-56",
+      "name": "GNU General Public License v3.0 (Enterprise Profile #56)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/GPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #56. All rights reserved.",
+      "licenseText": "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "AGPL-3.0-only-variant-57",
+      "name": "GNU Affero General Public License v3.0 (Enterprise Profile #57)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/AGPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #57. All rights reserved.",
+      "licenseText": "The GNU Affero General Public License is a free, copyleft license for software and other kinds of works...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "BSD-3-Clause-variant-58",
+      "name": "BSD 3-Clause 'New' or 'Revised' License (Enterprise Profile #58)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/BSD-3-Clause.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #58. All rights reserved.",
+      "licenseText": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "MPL-2.0-variant-59",
+      "name": "Mozilla Public License 2.0 (Enterprise Profile #59)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/MPL-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #59. All rights reserved.",
+      "licenseText": "This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "LGPL-3.0-only-variant-60",
+      "name": "GNU Lesser General Public License v3.0 (Enterprise Profile #60)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/LGPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #60. All rights reserved.",
+      "licenseText": "This version of the GNU Lesser General Public License incorporates the terms and conditions of version 3...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "ISC-variant-61",
+      "name": "ISC License (Enterprise Profile #61)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/ISC.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #61. All rights reserved.",
+      "licenseText": "Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "Unlicense-variant-62",
+      "name": "The Unlicense (Enterprise Profile #62)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Unlicense.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #62. All rights reserved.",
+      "licenseText": "This is free and unencumbered software released into the public domain...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "MIT-variant-63",
+      "name": "MIT License (Enterprise Profile #63)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/MIT.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #63. All rights reserved.",
+      "licenseText": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "Apache-2.0-variant-64",
+      "name": "Apache License 2.0 (Enterprise Profile #64)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Apache-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #64. All rights reserved.",
+      "licenseText": "Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "GPL-3.0-only-variant-65",
+      "name": "GNU General Public License v3.0 (Enterprise Profile #65)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/GPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #65. All rights reserved.",
+      "licenseText": "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "AGPL-3.0-only-variant-66",
+      "name": "GNU Affero General Public License v3.0 (Enterprise Profile #66)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/AGPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #66. All rights reserved.",
+      "licenseText": "The GNU Affero General Public License is a free, copyleft license for software and other kinds of works...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "BSD-3-Clause-variant-67",
+      "name": "BSD 3-Clause 'New' or 'Revised' License (Enterprise Profile #67)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/BSD-3-Clause.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #67. All rights reserved.",
+      "licenseText": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "MPL-2.0-variant-68",
+      "name": "Mozilla Public License 2.0 (Enterprise Profile #68)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/MPL-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #68. All rights reserved.",
+      "licenseText": "This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "LGPL-3.0-only-variant-69",
+      "name": "GNU Lesser General Public License v3.0 (Enterprise Profile #69)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/LGPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #69. All rights reserved.",
+      "licenseText": "This version of the GNU Lesser General Public License incorporates the terms and conditions of version 3...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "ISC-variant-70",
+      "name": "ISC License (Enterprise Profile #70)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/ISC.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #70. All rights reserved.",
+      "licenseText": "Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "Unlicense-variant-71",
+      "name": "The Unlicense (Enterprise Profile #71)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Unlicense.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #71. All rights reserved.",
+      "licenseText": "This is free and unencumbered software released into the public domain...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "MIT-variant-72",
+      "name": "MIT License (Enterprise Profile #72)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/MIT.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #72. All rights reserved.",
+      "licenseText": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "Apache-2.0-variant-73",
+      "name": "Apache License 2.0 (Enterprise Profile #73)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Apache-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #73. All rights reserved.",
+      "licenseText": "Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "GPL-3.0-only-variant-74",
+      "name": "GNU General Public License v3.0 (Enterprise Profile #74)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/GPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #74. All rights reserved.",
+      "licenseText": "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "AGPL-3.0-only-variant-75",
+      "name": "GNU Affero General Public License v3.0 (Enterprise Profile #75)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/AGPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #75. All rights reserved.",
+      "licenseText": "The GNU Affero General Public License is a free, copyleft license for software and other kinds of works...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "BSD-3-Clause-variant-76",
+      "name": "BSD 3-Clause 'New' or 'Revised' License (Enterprise Profile #76)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/BSD-3-Clause.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #76. All rights reserved.",
+      "licenseText": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "MPL-2.0-variant-77",
+      "name": "Mozilla Public License 2.0 (Enterprise Profile #77)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/MPL-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #77. All rights reserved.",
+      "licenseText": "This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "LGPL-3.0-only-variant-78",
+      "name": "GNU Lesser General Public License v3.0 (Enterprise Profile #78)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/LGPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #78. All rights reserved.",
+      "licenseText": "This version of the GNU Lesser General Public License incorporates the terms and conditions of version 3...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "ISC-variant-79",
+      "name": "ISC License (Enterprise Profile #79)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/ISC.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #79. All rights reserved.",
+      "licenseText": "Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "Unlicense-variant-80",
+      "name": "The Unlicense (Enterprise Profile #80)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Unlicense.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #80. All rights reserved.",
+      "licenseText": "This is free and unencumbered software released into the public domain...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "MIT-variant-81",
+      "name": "MIT License (Enterprise Profile #81)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/MIT.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #81. All rights reserved.",
+      "licenseText": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "Apache-2.0-variant-82",
+      "name": "Apache License 2.0 (Enterprise Profile #82)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Apache-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #82. All rights reserved.",
+      "licenseText": "Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "GPL-3.0-only-variant-83",
+      "name": "GNU General Public License v3.0 (Enterprise Profile #83)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/GPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #83. All rights reserved.",
+      "licenseText": "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "AGPL-3.0-only-variant-84",
+      "name": "GNU Affero General Public License v3.0 (Enterprise Profile #84)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/AGPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #84. All rights reserved.",
+      "licenseText": "The GNU Affero General Public License is a free, copyleft license for software and other kinds of works...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "BSD-3-Clause-variant-85",
+      "name": "BSD 3-Clause 'New' or 'Revised' License (Enterprise Profile #85)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/BSD-3-Clause.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #85. All rights reserved.",
+      "licenseText": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "MPL-2.0-variant-86",
+      "name": "Mozilla Public License 2.0 (Enterprise Profile #86)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/MPL-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #86. All rights reserved.",
+      "licenseText": "This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "LGPL-3.0-only-variant-87",
+      "name": "GNU Lesser General Public License v3.0 (Enterprise Profile #87)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/LGPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #87. All rights reserved.",
+      "licenseText": "This version of the GNU Lesser General Public License incorporates the terms and conditions of version 3...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "ISC-variant-88",
+      "name": "ISC License (Enterprise Profile #88)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/ISC.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #88. All rights reserved.",
+      "licenseText": "Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "Unlicense-variant-89",
+      "name": "The Unlicense (Enterprise Profile #89)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Unlicense.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #89. All rights reserved.",
+      "licenseText": "This is free and unencumbered software released into the public domain...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "MIT-variant-90",
+      "name": "MIT License (Enterprise Profile #90)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/MIT.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #90. All rights reserved.",
+      "licenseText": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "Apache-2.0-variant-91",
+      "name": "Apache License 2.0 (Enterprise Profile #91)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Apache-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #91. All rights reserved.",
+      "licenseText": "Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "GPL-3.0-only-variant-92",
+      "name": "GNU General Public License v3.0 (Enterprise Profile #92)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/GPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #92. All rights reserved.",
+      "licenseText": "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "AGPL-3.0-only-variant-93",
+      "name": "GNU Affero General Public License v3.0 (Enterprise Profile #93)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/AGPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #93. All rights reserved.",
+      "licenseText": "The GNU Affero General Public License is a free, copyleft license for software and other kinds of works...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "BSD-3-Clause-variant-94",
+      "name": "BSD 3-Clause 'New' or 'Revised' License (Enterprise Profile #94)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/BSD-3-Clause.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #94. All rights reserved.",
+      "licenseText": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "MPL-2.0-variant-95",
+      "name": "Mozilla Public License 2.0 (Enterprise Profile #95)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/MPL-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #95. All rights reserved.",
+      "licenseText": "This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "LGPL-3.0-only-variant-96",
+      "name": "GNU Lesser General Public License v3.0 (Enterprise Profile #96)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/LGPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #96. All rights reserved.",
+      "licenseText": "This version of the GNU Lesser General Public License incorporates the terms and conditions of version 3...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "ISC-variant-97",
+      "name": "ISC License (Enterprise Profile #97)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/ISC.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #97. All rights reserved.",
+      "licenseText": "Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "Unlicense-variant-98",
+      "name": "The Unlicense (Enterprise Profile #98)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Unlicense.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #98. All rights reserved.",
+      "licenseText": "This is free and unencumbered software released into the public domain...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "MIT-variant-99",
+      "name": "MIT License (Enterprise Profile #99)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/MIT.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #99. All rights reserved.",
+      "licenseText": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "Apache-2.0-variant-100",
+      "name": "Apache License 2.0 (Enterprise Profile #100)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Apache-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #100. All rights reserved.",
+      "licenseText": "Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "GPL-3.0-only-variant-101",
+      "name": "GNU General Public License v3.0 (Enterprise Profile #101)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/GPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #101. All rights reserved.",
+      "licenseText": "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "AGPL-3.0-only-variant-102",
+      "name": "GNU Affero General Public License v3.0 (Enterprise Profile #102)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/AGPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #102. All rights reserved.",
+      "licenseText": "The GNU Affero General Public License is a free, copyleft license for software and other kinds of works...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "BSD-3-Clause-variant-103",
+      "name": "BSD 3-Clause 'New' or 'Revised' License (Enterprise Profile #103)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/BSD-3-Clause.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #103. All rights reserved.",
+      "licenseText": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "MPL-2.0-variant-104",
+      "name": "Mozilla Public License 2.0 (Enterprise Profile #104)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/MPL-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #104. All rights reserved.",
+      "licenseText": "This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "LGPL-3.0-only-variant-105",
+      "name": "GNU Lesser General Public License v3.0 (Enterprise Profile #105)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/LGPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #105. All rights reserved.",
+      "licenseText": "This version of the GNU Lesser General Public License incorporates the terms and conditions of version 3...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "ISC-variant-106",
+      "name": "ISC License (Enterprise Profile #106)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/ISC.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #106. All rights reserved.",
+      "licenseText": "Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "Unlicense-variant-107",
+      "name": "The Unlicense (Enterprise Profile #107)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Unlicense.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #107. All rights reserved.",
+      "licenseText": "This is free and unencumbered software released into the public domain...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "MIT-variant-108",
+      "name": "MIT License (Enterprise Profile #108)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/MIT.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #108. All rights reserved.",
+      "licenseText": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "Apache-2.0-variant-109",
+      "name": "Apache License 2.0 (Enterprise Profile #109)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Apache-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #109. All rights reserved.",
+      "licenseText": "Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "GPL-3.0-only-variant-110",
+      "name": "GNU General Public License v3.0 (Enterprise Profile #110)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/GPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #110. All rights reserved.",
+      "licenseText": "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "AGPL-3.0-only-variant-111",
+      "name": "GNU Affero General Public License v3.0 (Enterprise Profile #111)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/AGPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #111. All rights reserved.",
+      "licenseText": "The GNU Affero General Public License is a free, copyleft license for software and other kinds of works...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "BSD-3-Clause-variant-112",
+      "name": "BSD 3-Clause 'New' or 'Revised' License (Enterprise Profile #112)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/BSD-3-Clause.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #112. All rights reserved.",
+      "licenseText": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "MPL-2.0-variant-113",
+      "name": "Mozilla Public License 2.0 (Enterprise Profile #113)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/MPL-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #113. All rights reserved.",
+      "licenseText": "This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "LGPL-3.0-only-variant-114",
+      "name": "GNU Lesser General Public License v3.0 (Enterprise Profile #114)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/LGPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #114. All rights reserved.",
+      "licenseText": "This version of the GNU Lesser General Public License incorporates the terms and conditions of version 3...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "ISC-variant-115",
+      "name": "ISC License (Enterprise Profile #115)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/ISC.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #115. All rights reserved.",
+      "licenseText": "Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "Unlicense-variant-116",
+      "name": "The Unlicense (Enterprise Profile #116)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Unlicense.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #116. All rights reserved.",
+      "licenseText": "This is free and unencumbered software released into the public domain...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "MIT-variant-117",
+      "name": "MIT License (Enterprise Profile #117)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/MIT.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #117. All rights reserved.",
+      "licenseText": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "Apache-2.0-variant-118",
+      "name": "Apache License 2.0 (Enterprise Profile #118)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Apache-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #118. All rights reserved.",
+      "licenseText": "Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "GPL-3.0-only-variant-119",
+      "name": "GNU General Public License v3.0 (Enterprise Profile #119)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/GPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #119. All rights reserved.",
+      "licenseText": "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "AGPL-3.0-only-variant-120",
+      "name": "GNU Affero General Public License v3.0 (Enterprise Profile #120)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/AGPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #120. All rights reserved.",
+      "licenseText": "The GNU Affero General Public License is a free, copyleft license for software and other kinds of works...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "BSD-3-Clause-variant-121",
+      "name": "BSD 3-Clause 'New' or 'Revised' License (Enterprise Profile #121)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/BSD-3-Clause.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #121. All rights reserved.",
+      "licenseText": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "MPL-2.0-variant-122",
+      "name": "Mozilla Public License 2.0 (Enterprise Profile #122)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/MPL-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #122. All rights reserved.",
+      "licenseText": "This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "LGPL-3.0-only-variant-123",
+      "name": "GNU Lesser General Public License v3.0 (Enterprise Profile #123)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/LGPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #123. All rights reserved.",
+      "licenseText": "This version of the GNU Lesser General Public License incorporates the terms and conditions of version 3...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "ISC-variant-124",
+      "name": "ISC License (Enterprise Profile #124)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/ISC.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #124. All rights reserved.",
+      "licenseText": "Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "Unlicense-variant-125",
+      "name": "The Unlicense (Enterprise Profile #125)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Unlicense.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #125. All rights reserved.",
+      "licenseText": "This is free and unencumbered software released into the public domain...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "MIT-variant-126",
+      "name": "MIT License (Enterprise Profile #126)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/MIT.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #126. All rights reserved.",
+      "licenseText": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "Apache-2.0-variant-127",
+      "name": "Apache License 2.0 (Enterprise Profile #127)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Apache-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #127. All rights reserved.",
+      "licenseText": "Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "GPL-3.0-only-variant-128",
+      "name": "GNU General Public License v3.0 (Enterprise Profile #128)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/GPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #128. All rights reserved.",
+      "licenseText": "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "AGPL-3.0-only-variant-129",
+      "name": "GNU Affero General Public License v3.0 (Enterprise Profile #129)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/AGPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #129. All rights reserved.",
+      "licenseText": "The GNU Affero General Public License is a free, copyleft license for software and other kinds of works...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "BSD-3-Clause-variant-130",
+      "name": "BSD 3-Clause 'New' or 'Revised' License (Enterprise Profile #130)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/BSD-3-Clause.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #130. All rights reserved.",
+      "licenseText": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "MPL-2.0-variant-131",
+      "name": "Mozilla Public License 2.0 (Enterprise Profile #131)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/MPL-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #131. All rights reserved.",
+      "licenseText": "This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "LGPL-3.0-only-variant-132",
+      "name": "GNU Lesser General Public License v3.0 (Enterprise Profile #132)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/LGPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #132. All rights reserved.",
+      "licenseText": "This version of the GNU Lesser General Public License incorporates the terms and conditions of version 3...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "ISC-variant-133",
+      "name": "ISC License (Enterprise Profile #133)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/ISC.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #133. All rights reserved.",
+      "licenseText": "Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "Unlicense-variant-134",
+      "name": "The Unlicense (Enterprise Profile #134)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Unlicense.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #134. All rights reserved.",
+      "licenseText": "This is free and unencumbered software released into the public domain...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "MIT-variant-135",
+      "name": "MIT License (Enterprise Profile #135)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/MIT.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #135. All rights reserved.",
+      "licenseText": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "Apache-2.0-variant-136",
+      "name": "Apache License 2.0 (Enterprise Profile #136)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Apache-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #136. All rights reserved.",
+      "licenseText": "Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "GPL-3.0-only-variant-137",
+      "name": "GNU General Public License v3.0 (Enterprise Profile #137)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/GPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #137. All rights reserved.",
+      "licenseText": "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "AGPL-3.0-only-variant-138",
+      "name": "GNU Affero General Public License v3.0 (Enterprise Profile #138)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/AGPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #138. All rights reserved.",
+      "licenseText": "The GNU Affero General Public License is a free, copyleft license for software and other kinds of works...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "BSD-3-Clause-variant-139",
+      "name": "BSD 3-Clause 'New' or 'Revised' License (Enterprise Profile #139)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/BSD-3-Clause.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #139. All rights reserved.",
+      "licenseText": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "MPL-2.0-variant-140",
+      "name": "Mozilla Public License 2.0 (Enterprise Profile #140)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/MPL-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #140. All rights reserved.",
+      "licenseText": "This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "LGPL-3.0-only-variant-141",
+      "name": "GNU Lesser General Public License v3.0 (Enterprise Profile #141)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/LGPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #141. All rights reserved.",
+      "licenseText": "This version of the GNU Lesser General Public License incorporates the terms and conditions of version 3...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "ISC-variant-142",
+      "name": "ISC License (Enterprise Profile #142)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/ISC.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #142. All rights reserved.",
+      "licenseText": "Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "Unlicense-variant-143",
+      "name": "The Unlicense (Enterprise Profile #143)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Unlicense.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #143. All rights reserved.",
+      "licenseText": "This is free and unencumbered software released into the public domain...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "MIT-variant-144",
+      "name": "MIT License (Enterprise Profile #144)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/MIT.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #144. All rights reserved.",
+      "licenseText": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "Apache-2.0-variant-145",
+      "name": "Apache License 2.0 (Enterprise Profile #145)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Apache-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #145. All rights reserved.",
+      "licenseText": "Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "GPL-3.0-only-variant-146",
+      "name": "GNU General Public License v3.0 (Enterprise Profile #146)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/GPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #146. All rights reserved.",
+      "licenseText": "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "AGPL-3.0-only-variant-147",
+      "name": "GNU Affero General Public License v3.0 (Enterprise Profile #147)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/AGPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #147. All rights reserved.",
+      "licenseText": "The GNU Affero General Public License is a free, copyleft license for software and other kinds of works...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "BSD-3-Clause-variant-148",
+      "name": "BSD 3-Clause 'New' or 'Revised' License (Enterprise Profile #148)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/BSD-3-Clause.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #148. All rights reserved.",
+      "licenseText": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "MPL-2.0-variant-149",
+      "name": "Mozilla Public License 2.0 (Enterprise Profile #149)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/MPL-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #149. All rights reserved.",
+      "licenseText": "This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "LGPL-3.0-only-variant-150",
+      "name": "GNU Lesser General Public License v3.0 (Enterprise Profile #150)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/LGPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #150. All rights reserved.",
+      "licenseText": "This version of the GNU Lesser General Public License incorporates the terms and conditions of version 3...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "ISC-variant-151",
+      "name": "ISC License (Enterprise Profile #151)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/ISC.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #151. All rights reserved.",
+      "licenseText": "Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "Unlicense-variant-152",
+      "name": "The Unlicense (Enterprise Profile #152)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Unlicense.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #152. All rights reserved.",
+      "licenseText": "This is free and unencumbered software released into the public domain...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "MIT-variant-153",
+      "name": "MIT License (Enterprise Profile #153)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/MIT.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #153. All rights reserved.",
+      "licenseText": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "Apache-2.0-variant-154",
+      "name": "Apache License 2.0 (Enterprise Profile #154)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Apache-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #154. All rights reserved.",
+      "licenseText": "Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "GPL-3.0-only-variant-155",
+      "name": "GNU General Public License v3.0 (Enterprise Profile #155)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/GPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #155. All rights reserved.",
+      "licenseText": "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "AGPL-3.0-only-variant-156",
+      "name": "GNU Affero General Public License v3.0 (Enterprise Profile #156)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/AGPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #156. All rights reserved.",
+      "licenseText": "The GNU Affero General Public License is a free, copyleft license for software and other kinds of works...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "BSD-3-Clause-variant-157",
+      "name": "BSD 3-Clause 'New' or 'Revised' License (Enterprise Profile #157)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/BSD-3-Clause.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #157. All rights reserved.",
+      "licenseText": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "MPL-2.0-variant-158",
+      "name": "Mozilla Public License 2.0 (Enterprise Profile #158)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/MPL-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #158. All rights reserved.",
+      "licenseText": "This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "LGPL-3.0-only-variant-159",
+      "name": "GNU Lesser General Public License v3.0 (Enterprise Profile #159)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/LGPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #159. All rights reserved.",
+      "licenseText": "This version of the GNU Lesser General Public License incorporates the terms and conditions of version 3...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "ISC-variant-160",
+      "name": "ISC License (Enterprise Profile #160)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/ISC.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #160. All rights reserved.",
+      "licenseText": "Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "Unlicense-variant-161",
+      "name": "The Unlicense (Enterprise Profile #161)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Unlicense.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #161. All rights reserved.",
+      "licenseText": "This is free and unencumbered software released into the public domain...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "MIT-variant-162",
+      "name": "MIT License (Enterprise Profile #162)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/MIT.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #162. All rights reserved.",
+      "licenseText": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "Apache-2.0-variant-163",
+      "name": "Apache License 2.0 (Enterprise Profile #163)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Apache-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #163. All rights reserved.",
+      "licenseText": "Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "GPL-3.0-only-variant-164",
+      "name": "GNU General Public License v3.0 (Enterprise Profile #164)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/GPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #164. All rights reserved.",
+      "licenseText": "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "AGPL-3.0-only-variant-165",
+      "name": "GNU Affero General Public License v3.0 (Enterprise Profile #165)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/AGPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #165. All rights reserved.",
+      "licenseText": "The GNU Affero General Public License is a free, copyleft license for software and other kinds of works...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "BSD-3-Clause-variant-166",
+      "name": "BSD 3-Clause 'New' or 'Revised' License (Enterprise Profile #166)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/BSD-3-Clause.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #166. All rights reserved.",
+      "licenseText": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "MPL-2.0-variant-167",
+      "name": "Mozilla Public License 2.0 (Enterprise Profile #167)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/MPL-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #167. All rights reserved.",
+      "licenseText": "This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "LGPL-3.0-only-variant-168",
+      "name": "GNU Lesser General Public License v3.0 (Enterprise Profile #168)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/LGPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #168. All rights reserved.",
+      "licenseText": "This version of the GNU Lesser General Public License incorporates the terms and conditions of version 3...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "ISC-variant-169",
+      "name": "ISC License (Enterprise Profile #169)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/ISC.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #169. All rights reserved.",
+      "licenseText": "Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "Unlicense-variant-170",
+      "name": "The Unlicense (Enterprise Profile #170)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Unlicense.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #170. All rights reserved.",
+      "licenseText": "This is free and unencumbered software released into the public domain...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "MIT-variant-171",
+      "name": "MIT License (Enterprise Profile #171)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/MIT.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #171. All rights reserved.",
+      "licenseText": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "Apache-2.0-variant-172",
+      "name": "Apache License 2.0 (Enterprise Profile #172)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Apache-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #172. All rights reserved.",
+      "licenseText": "Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "GPL-3.0-only-variant-173",
+      "name": "GNU General Public License v3.0 (Enterprise Profile #173)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/GPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #173. All rights reserved.",
+      "licenseText": "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "AGPL-3.0-only-variant-174",
+      "name": "GNU Affero General Public License v3.0 (Enterprise Profile #174)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/AGPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #174. All rights reserved.",
+      "licenseText": "The GNU Affero General Public License is a free, copyleft license for software and other kinds of works...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "BSD-3-Clause-variant-175",
+      "name": "BSD 3-Clause 'New' or 'Revised' License (Enterprise Profile #175)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/BSD-3-Clause.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #175. All rights reserved.",
+      "licenseText": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "MPL-2.0-variant-176",
+      "name": "Mozilla Public License 2.0 (Enterprise Profile #176)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/MPL-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #176. All rights reserved.",
+      "licenseText": "This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "LGPL-3.0-only-variant-177",
+      "name": "GNU Lesser General Public License v3.0 (Enterprise Profile #177)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/LGPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #177. All rights reserved.",
+      "licenseText": "This version of the GNU Lesser General Public License incorporates the terms and conditions of version 3...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "ISC-variant-178",
+      "name": "ISC License (Enterprise Profile #178)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/ISC.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #178. All rights reserved.",
+      "licenseText": "Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "Unlicense-variant-179",
+      "name": "The Unlicense (Enterprise Profile #179)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Unlicense.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #179. All rights reserved.",
+      "licenseText": "This is free and unencumbered software released into the public domain...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "MIT-variant-180",
+      "name": "MIT License (Enterprise Profile #180)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/MIT.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #180. All rights reserved.",
+      "licenseText": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "Apache-2.0-variant-181",
+      "name": "Apache License 2.0 (Enterprise Profile #181)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Apache-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #181. All rights reserved.",
+      "licenseText": "Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "GPL-3.0-only-variant-182",
+      "name": "GNU General Public License v3.0 (Enterprise Profile #182)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/GPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #182. All rights reserved.",
+      "licenseText": "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "AGPL-3.0-only-variant-183",
+      "name": "GNU Affero General Public License v3.0 (Enterprise Profile #183)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/AGPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #183. All rights reserved.",
+      "licenseText": "The GNU Affero General Public License is a free, copyleft license for software and other kinds of works...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "BSD-3-Clause-variant-184",
+      "name": "BSD 3-Clause 'New' or 'Revised' License (Enterprise Profile #184)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/BSD-3-Clause.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #184. All rights reserved.",
+      "licenseText": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "MPL-2.0-variant-185",
+      "name": "Mozilla Public License 2.0 (Enterprise Profile #185)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/MPL-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #185. All rights reserved.",
+      "licenseText": "This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "LGPL-3.0-only-variant-186",
+      "name": "GNU Lesser General Public License v3.0 (Enterprise Profile #186)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/LGPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #186. All rights reserved.",
+      "licenseText": "This version of the GNU Lesser General Public License incorporates the terms and conditions of version 3...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "ISC-variant-187",
+      "name": "ISC License (Enterprise Profile #187)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/ISC.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #187. All rights reserved.",
+      "licenseText": "Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "Unlicense-variant-188",
+      "name": "The Unlicense (Enterprise Profile #188)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Unlicense.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #188. All rights reserved.",
+      "licenseText": "This is free and unencumbered software released into the public domain...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "MIT-variant-189",
+      "name": "MIT License (Enterprise Profile #189)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/MIT.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #189. All rights reserved.",
+      "licenseText": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "Apache-2.0-variant-190",
+      "name": "Apache License 2.0 (Enterprise Profile #190)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Apache-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #190. All rights reserved.",
+      "licenseText": "Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "GPL-3.0-only-variant-191",
+      "name": "GNU General Public License v3.0 (Enterprise Profile #191)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/GPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #191. All rights reserved.",
+      "licenseText": "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "AGPL-3.0-only-variant-192",
+      "name": "GNU Affero General Public License v3.0 (Enterprise Profile #192)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/AGPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #192. All rights reserved.",
+      "licenseText": "The GNU Affero General Public License is a free, copyleft license for software and other kinds of works...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "BSD-3-Clause-variant-193",
+      "name": "BSD 3-Clause 'New' or 'Revised' License (Enterprise Profile #193)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/BSD-3-Clause.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #193. All rights reserved.",
+      "licenseText": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "MPL-2.0-variant-194",
+      "name": "Mozilla Public License 2.0 (Enterprise Profile #194)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/MPL-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #194. All rights reserved.",
+      "licenseText": "This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "LGPL-3.0-only-variant-195",
+      "name": "GNU Lesser General Public License v3.0 (Enterprise Profile #195)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/LGPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #195. All rights reserved.",
+      "licenseText": "This version of the GNU Lesser General Public License incorporates the terms and conditions of version 3...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    },
+    {
+      "licenseId": "ISC-variant-196",
+      "name": "ISC License (Enterprise Profile #196)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/ISC.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #196. All rights reserved.",
+      "licenseText": "Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "Unlicense-variant-197",
+      "name": "The Unlicense (Enterprise Profile #197)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Unlicense.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #197. All rights reserved.",
+      "licenseText": "This is free and unencumbered software released into the public domain...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "MIT-variant-198",
+      "name": "MIT License (Enterprise Profile #198)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/MIT.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #198. All rights reserved.",
+      "licenseText": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "Apache-2.0-variant-199",
+      "name": "Apache License 2.0 (Enterprise Profile #199)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": false,
+      "seeAlso": [
+        "https://spdx.org/licenses/Apache-2.0.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #199. All rights reserved.",
+      "licenseText": "Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License...",
+      "compatibleWith": [
+        "MIT",
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "ISC"
+      ]
+    },
+    {
+      "licenseId": "GPL-3.0-only-variant-200",
+      "name": "GNU General Public License v3.0 (Enterprise Profile #200)",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isCopyleft": true,
+      "seeAlso": [
+        "https://spdx.org/licenses/GPL-3.0-only.html"
+      ],
+      "standardLicenseHeader": "Copyright (c) 2026 Enterprise Contributor #200. All rights reserved.",
+      "licenseText": "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License...",
+      "compatibleWith": [
+        "GPL-3.0-only",
+        "AGPL-3.0-only"
+      ]
+    }
+  ]
+}
