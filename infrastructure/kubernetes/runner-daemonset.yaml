@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: forgehub-isolated-runner
+  namespace: forgehub-runners
+spec:
+  selector:
+    matchLabels:
+      app: forgehub-isolated-runner
+  template:
+    metadata:
+      labels:
+        app: forgehub-isolated-runner
+    spec:
+      containers:
+        - name: runner
+          image: forgehub/ci-runner-ubuntu:latest
