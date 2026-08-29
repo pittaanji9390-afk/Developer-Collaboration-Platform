@@ -1,0 +1,22 @@
+{
+  "name": "forgehub",
+  "version": "1.0.0",
+  "description": "Enterprise Developer Collaboration Platform",
+  "private": true,
+  "scripts": {
+    "install:all": "npm --prefix frontend install && cd backend && (./mvnw clean install -DskipTests || mvn clean install -DskipTests)",
+    "build": "npm --prefix frontend run build && cd backend && (./mvnw package -DskipTests || mvn package -DskipTests)",
+    "start": "docker-compose up -d",
+    "dev": "docker-compose up",
+    "test": "npm --prefix frontend test || true"
+  },
+  "keywords": [
+    "developer-platform",
+    "git",
+    "collaboration",
+    "ci-cd",
+    "code-review"
+  ],
+  "author": "ForgeHub Team",
+  "license": "UNLICENSED"
+}

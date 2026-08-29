@@ -1,13 +1,21 @@
-target/
+# Environment Variables
+.env
+.env.*
+!.env.example
+!example.env
+
+# Dependencies & Build Outputs
 node_modules/
 dist/
-data/
+target/
 *.class
-*.log
-.DS_Store
-Thumbs.db
+*.jar
+*.war
+
+# IDE & System files
 .idea/
-*.iml
 .vscode/
-.env
-.env.local
+*.swp
+*.DS_Store
+Thumbs.db
+*.log
