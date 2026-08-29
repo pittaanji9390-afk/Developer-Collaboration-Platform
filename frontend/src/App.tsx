@@ -6,8 +6,12 @@ import { RegisterPage } from './features/auth/RegisterPage';
 import { UserProfilePage } from './features/users/UserProfilePage';
 import { RepoViewPage } from './features/repositories/RepoViewPage';
 import { RepoSettingsPage } from './features/settings/RepoSettingsPage';
+import { NewRepoPage } from './features/repositories/NewRepoPage';
+import { SearchExplorePage } from './features/search/SearchExplorePage';
 import { IssueListPage } from './features/issues/IssueListPage';
+import { IssueDetailPage } from './features/issues/IssueDetailPage';
 import { PRListPage } from './features/pullrequests/PRListPage';
+import { PRDetailPage } from './features/pullrequests/PRDetailPage';
 import { KanbanBoardPage } from './features/kanban/KanbanBoardPage';
 import { WorkflowRunPage } from './features/workflows/WorkflowRunPage';
 import { AdminDashboardPage } from './features/admin/AdminDashboardPage';
@@ -29,11 +33,11 @@ const HomePage = () => (
     </p>
 
     <div className="flex flex-wrap items-center justify-center gap-4">
-      <Link to="/register" className="px-6 py-3 text-sm font-semibold text-white bg-forge-600 hover:bg-forge-500 rounded-xl shadow-lg shadow-forge-600/20 transition-all">
-        Get Started Free
+      <Link to="/explore" className="px-6 py-3 text-sm font-semibold text-white bg-forge-600 hover:bg-forge-500 rounded-xl shadow-lg shadow-forge-600/20 transition-all">
+        Explore Repositories
       </Link>
-      <Link to="/admin" className="px-6 py-3 text-sm font-semibold text-slate-200 bg-surface-900 border border-surface-800 hover:bg-surface-800 rounded-xl transition-all">
-        Admin Console
+      <Link to="/new" className="px-6 py-3 text-sm font-semibold text-slate-200 bg-surface-900 border border-surface-800 hover:bg-surface-800 rounded-xl transition-all">
+        Create Repository
       </Link>
     </div>
 
@@ -72,14 +76,19 @@ export default function App() {
       <main className="flex-1">
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/explore" element={<SearchExplorePage />} />
+          <Route path="/search" element={<SearchExplorePage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<RegisterPage />} />
+          <Route path="/new" element={<NewRepoPage />} />
           <Route path="/admin" element={<AdminDashboardPage />} />
           <Route path="/users/:username" element={<UserProfilePage />} />
           <Route path="/:owner/:repo" element={<RepoViewPage />} />
           <Route path="/:owner/:repo/settings" element={<RepoSettingsPage />} />
           <Route path="/:owner/:repo/issues" element={<IssueListPage />} />
+          <Route path="/:owner/:repo/issues/:number" element={<IssueDetailPage />} />
           <Route path="/:owner/:repo/pulls" element={<PRListPage />} />
+          <Route path="/:owner/:repo/pulls/:number" element={<PRDetailPage />} />
           <Route path="/:owner/:repo/projects" element={<KanbanBoardPage />} />
           <Route path="/:owner/:repo/actions/runs/:runId" element={<WorkflowRunPage />} />
           <Route path="*" element={<HomePage />} />
