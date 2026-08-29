@@ -1,0 +1,1 @@
+print(" Direct python file execution works 100% without shell parsing!\)

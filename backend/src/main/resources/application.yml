@@ -1,0 +1,38 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+spring:
+  application:
+    name: forgehub-backend
+  profiles:
+    active: dev
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+      fail-on-empty-beans: false
+    default-property-inclusion: non_null
+
+forgehub:
+  jwt:
+    secret: 404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970
+    access-token-expiration-ms: 900000
+    refresh-token-expiration-ms: 604800000
+    issuer: forgehub-auth
+  git:
+    storage-root: ./data/git-repositories
+    max-file-size-bytes: 10485760
+    diff-max-lines: 5000
+  storage:
+    type: local
+    local-root: ./data/uploads
+  ci:
+    max-concurrent-jobs: 10
+    default-timeout-seconds: 1800
+    workspace-root: ./data/ci-workspaces
+  crypto:
+    vault-key: 635266556A586E3272357538782F413F4428472B4B6250645367566B5970404E
+  webhook:
+    delivery-timeout-ms: 10000
+    max-retry-attempts: 5

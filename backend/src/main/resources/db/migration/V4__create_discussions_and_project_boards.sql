@@ -1,0 +1,73 @@
+-- V4: Discussions, Categories, Kanban Project Boards, Columns, Cards
+CREATE TABLE IF NOT EXISTS discussion_categories (
+    id VARCHAR(36) PRIMARY KEY,
+    repository_id VARCHAR(36) REFERENCES repositories(id) ON DELETE CASCADE,
+    organization_id VARCHAR(36) REFERENCES organizations(id) ON DELETE CASCADE,
+    name VARCHAR(100) NOT NULL,
+    slug VARCHAR(100) NOT NULL,
+    emoji VARCHAR(20) NOT NULL DEFAULT '💬',
+    description VARCHAR(255),
+    is_qa BOOLEAN NOT NULL DEFAULT FALSE,
+    created_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS discussions (
+    id VARCHAR(36) PRIMARY KEY,
+    repository_id VARCHAR(36) REFERENCES repositories(id) ON DELETE CASCADE,
+    organization_id VARCHAR(36) REFERENCES organizations(id) ON DELETE CASCADE,
+    category_id VARCHAR(36) NOT NULL REFERENCES discussion_categories(id),
+    author_id VARCHAR(36) NOT NULL REFERENCES users(id),
+    number INT NOT NULL,
+    title VARCHAR(255) NOT NULL,
+    body TEXT NOT NULL,
+    locked BOOLEAN NOT NULL DEFAULT FALSE,
+    pinned BOOLEAN NOT NULL DEFAULT FALSE,
+    accepted_answer_comment_id VARCHAR(36),
+    comments_count INT NOT NULL DEFAULT 0,
+    upvotes_count INT NOT NULL DEFAULT 0,
+    created_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS discussion_comments (
+    id VARCHAR(36) PRIMARY KEY,
+    discussion_id VARCHAR(36) NOT NULL REFERENCES discussions(id) ON DELETE CASCADE,
+    author_id VARCHAR(36) NOT NULL REFERENCES users(id),
+    parent_comment_id VARCHAR(36) REFERENCES discussion_comments(id) ON DELETE CASCADE,
+    body TEXT NOT NULL,
+    is_answer BOOLEAN NOT NULL DEFAULT FALSE,
+    created_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS project_boards (
+    id VARCHAR(36) PRIMARY KEY,
+    repository_id VARCHAR(36) REFERENCES repositories(id) ON DELETE CASCADE,
+    organization_id VARCHAR(36) REFERENCES organizations(id) ON DELETE CASCADE,
+    owner_user_id VARCHAR(36) REFERENCES users(id) ON DELETE CASCADE,
+    name VARCHAR(100) NOT NULL,
+    description VARCHAR(500),
+    state VARCHAR(30) NOT NULL DEFAULT 'OPEN',
+    created_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS project_columns (
+    id VARCHAR(36) PRIMARY KEY,
+    project_id VARCHAR(36) NOT NULL REFERENCES project_boards(id) ON DELETE CASCADE,
+    name VARCHAR(100) NOT NULL,
+    position INT NOT NULL DEFAULT 0,
+    created_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS project_cards (
+    id VARCHAR(36) PRIMARY KEY,
+    column_id VARCHAR(36) NOT NULL REFERENCES project_columns(id) ON DELETE CASCADE,
+    issue_id VARCHAR(36) REFERENCES issues(id) ON DELETE SET NULL,
+    pull_request_id VARCHAR(36) REFERENCES pull_requests(id) ON DELETE SET NULL,
+    note TEXT,
+    position INT NOT NULL DEFAULT 0,
+    archived BOOLEAN NOT NULL DEFAULT FALSE,
+    created_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
