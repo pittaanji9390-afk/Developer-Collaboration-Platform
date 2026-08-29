@@ -2,9 +2,15 @@ import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 import { Navbar } from './components/layout/Navbar';
 import { LoginPage } from './features/auth/LoginPage';
+import { RegisterPage } from './features/auth/RegisterPage';
+import { UserProfilePage } from './features/users/UserProfilePage';
 import { RepoViewPage } from './features/repositories/RepoViewPage';
+import { RepoSettingsPage } from './features/settings/RepoSettingsPage';
 import { IssueListPage } from './features/issues/IssueListPage';
 import { PRListPage } from './features/pullrequests/PRListPage';
+import { KanbanBoardPage } from './features/kanban/KanbanBoardPage';
+import { WorkflowRunPage } from './features/workflows/WorkflowRunPage';
+import { AdminDashboardPage } from './features/admin/AdminDashboardPage';
 import { GitBranch, GitPullRequest, Shield, Zap } from 'lucide-react';
 
 const HomePage = () => (
@@ -26,8 +32,8 @@ const HomePage = () => (
       <Link to="/register" className="px-6 py-3 text-sm font-semibold text-white bg-forge-600 hover:bg-forge-500 rounded-xl shadow-lg shadow-forge-600/20 transition-all">
         Get Started Free
       </Link>
-      <Link to="/login" className="px-6 py-3 text-sm font-semibold text-slate-200 bg-surface-900 border border-surface-800 hover:bg-surface-800 rounded-xl transition-all">
-        Sign In
+      <Link to="/admin" className="px-6 py-3 text-sm font-semibold text-slate-200 bg-surface-900 border border-surface-800 hover:bg-surface-800 rounded-xl transition-all">
+        Admin Console
       </Link>
     </div>
 
@@ -67,9 +73,15 @@ export default function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/login" element={<LoginPage />} />
+          <Route path="/register" element={<RegisterPage />} />
+          <Route path="/admin" element={<AdminDashboardPage />} />
+          <Route path="/users/:username" element={<UserProfilePage />} />
           <Route path="/:owner/:repo" element={<RepoViewPage />} />
+          <Route path="/:owner/:repo/settings" element={<RepoSettingsPage />} />
           <Route path="/:owner/:repo/issues" element={<IssueListPage />} />
           <Route path="/:owner/:repo/pulls" element={<PRListPage />} />
+          <Route path="/:owner/:repo/projects" element={<KanbanBoardPage />} />
+          <Route path="/:owner/:repo/actions/runs/:runId" element={<WorkflowRunPage />} />
           <Route path="*" element={<HomePage />} />
         </Routes>
       </main>
